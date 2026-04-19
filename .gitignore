@@ -1,0 +1,18 @@
+cat > .gitignore << 'EOF'
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Spark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+EOF

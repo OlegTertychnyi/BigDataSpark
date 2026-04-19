@@ -1,0 +1,8 @@
+FROM apache/spark:3.5.3
+
+USER root
+
+COPY jars/*.jar /opt/spark/jars/
+RUN chmod 644 /opt/spark/jars/*.jar
+
+USER spark
