@@ -9,7 +9,7 @@ ETL на Apache Spark: CSV → PostgreSQL (star schema) → ClickHouse (6 вит
 ## Запуск
 
 ```bash
-git clone 
+git clone https://github.com/OlegTertychnyi/BigDataSpark.git
 cd BigDataSpark
 bash run.sh
 ```
